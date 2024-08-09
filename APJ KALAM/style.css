@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    overflow-x: hidden;
+    background-color: antiquewhite;
+    border: 7px solid black;
+    padding: 0 10px 10px 0;
+}
+#main{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+#pic img{
+    border-radius: 50%;
+}
+#name{
+    margin-top: 120px;
+    margin-left: 100px;
+    text-align: right;
+}
+#paragraph{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    box-shadow: 5px 5px 10px black;
+    margin-top: 20px;
+    padding: 10px;
+}
+.read h3{
+    text-align: right;
+    margin-top: 30px;
+}
