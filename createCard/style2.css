@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+
+    height: 100vh;
+    width: 100vw;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.seccontainer{
+    
+    width: 900px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+}
+img{
+    height: 400px;
+    width: 450px;
+
+}
+.contain{
+    background-color: darkmagenta; 
+    
+}
+.main{
+    padding: 30px 0px 0px 30px;
+    color: antiquewhite;
+}
+p{
+    margin-top: 40px;
+}
+.last{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
