@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(9, 109, 109);
+}
+.centercontainer{
+    max-width: 700px;
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 15px;
+    background-color: #ffffff;
+}
+#sumit{
+    font-size: 14px;
+    color: rgba(109, 105, 105, 0.872);
+}
+.rightpart{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 20px 0px 20px 0px;
+    /* background-color: #ffffff; */
+}
+ul li{
+    list-style: none;
+    border: 1px black solid;
+    padding: 10px;
+    color: black;
+    border-radius: 10px;
+}
+ul{
+    display: flex;
+    gap: 20px;
+
+}
+.leftpart{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding-left: 50px; */
+    background-color: rgb(31, 31, 212);
+    gap: 10px;
+    color: #ffffff;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 120px;
+    border-bottom-left-radius: 80px;
+    
+}
+#Register{
+    text-align: center;
+    padding: 0px 20px;
+
+}
+.input-div{
+    width: 100%;
+    padding: 0px 20px;
+}
+input{
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: rgb(238, 235, 232);
+    padding: 10px;
+    border-radius: 10px;
+}
+.Forget-text{
+    font-size: 14px;
+    color: rgba(109, 105, 105, 0.872);
+
+}
+button{
+    border: none;
+    outline: none;
+    padding: 12px 50px ;
+    background-color: rgb(16, 16, 96);
+    color: aliceblue;
+    font-weight: bold;
+    border-radius: 12px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgba(16, 16, 96, 0.881);
+}
+#up{
+    border: .5px solid #ffffff;
+}
